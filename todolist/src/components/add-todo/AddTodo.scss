@@ -1,0 +1,64 @@
+/*Applying styling to add todo item button on the top*/
+.addtop{
+    padding: 30px;
+    margin: 20px;
+    width: 100%;
+    background:linear-gradient(90deg, black, transparent);
+    color: rgb(252, 236, 236);       
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+    border:none;
+    }
+
+    .addtop:focus{
+        outline: 0;
+    }
+
+
+     /*Applying styles to savetodo button*/
+     .savetodo{
+        padding :20px;
+        margin: 20px;
+        border: none;
+        border-radius: 0;
+        width: 94%;
+        text-align: center;
+        float: left;
+        font-size: 20px;
+        font-weight:bolder;
+        background-color: rgb(158, 155, 155);
+        color: white;
+        
+    }  
+
+   .savetodo:focus{
+       outline: 0;
+       background-color: rgb(162, 207, 233);
+   }
+
+    .container{
+        color: rgb(173, 84, 89);
+        font-size:20px;
+        margin-top: 20px;
+        margin-left: 360px;
+        margin-right: 360px;
+        background-color:rgb(162, 207, 233);
+      }
+
+      input {
+        margin :5px;
+        border: none;
+        border-radius: 0;
+        width: 96%;
+        padding: 10px;
+       
+        font-size: 16px;
+        border: none;
+    }
+
+      

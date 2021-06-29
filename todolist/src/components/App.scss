@@ -1,0 +1,35 @@
+.App {
+  padding: 30px;
+}
+
+.brand-bar{
+  position: fixed;
+  top:0px;
+  left:0px;
+  height:auto;
+  width:100%;
+  background:radial-gradient(rgb(235,164,179), white);
+  color:white;
+  .title{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    margin:20px
+  }
+}
+
+
+  input{
+    margin :10px;
+  }
+
+
+
+.clicked .thedivelement {
+    display: block;
+}
+
+
+  
+
+  

@@ -1,0 +1,103 @@
+.tododiv{
+    margin:90px;
+    padding:10px;
+  }
+
+
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+  cursor: pointer;
+  padding: 20px;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+  color:white;
+  font-weight: bold;
+  margin:30px;
+  height: auto;
+}
+
+/*Applying style to all checkboxes*/
+.checkboxes{
+    float:right;
+    width: 50px;
+    transform: scale(2);
+    
+}
+
+label{
+  padding: 0px;
+  float: right;
+  color: green;
+  }
+
+  .thedivelement {
+   //display: none;
+    background:linear-gradient(
+    90deg
+    , transparent,rgb(255, 255, 255),);
+    line-height: 45px;
+    color: black;
+    font-weight: normal;
+}
+
+.activeitem{
+background:linear-gradient(90deg ,rgb(187, 185, 185),white,)
+}
+
+.completeditem{
+background: linear-gradient(90deg ,rgb(149, 218, 153),white,);
+}
+
+.btnViewDetail{
+  padding: 4px;
+  border: none;
+  margin: 5px;
+  float: right;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(131, 129, 129);
+  font-weight: bold;
+  height:auto;
+}
+.btnViewDetail:focus{
+  outline: 0;
+}
+.btnHideDetail{
+  padding: 4px;
+  border: none;
+  margin: 5px;
+  float: right;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(131, 129, 129);
+  font-weight: bold;
+  height:auto;
+}
+.btnHideDetail:focus{
+  outline: 0;
+}
+.btnCompleted{
+  padding: 4px;
+  border: none;
+  margin: 5px;
+  float: right;
+  border-radius: 10px;
+  color: white;
+  background-color:rgb(131, 129, 129);
+  font-weight: bold;
+  height:auto;
+}
+.btnCompleted:focus{
+  outline: 0;
+}
+
+.btnCompleted:disabled{
+  background-color: #cccccc;
+  color: #666666;
+}
